@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Namekong Jordan · Data Scientist & AI Engineer</title>
+  <meta name="description" content="Namekong Jordan, Data Scientist & AI Engineer in Paris. MSc Data Science & AI. Machine learning, LLM applications and health-tech products, end to end. Looking for a professional internship.">
+  <meta property="og:title" content="Namekong Jordan · Data Scientist & AI Engineer">
+  <meta property="og:description" content="Machine learning, LLM applications and health-tech products, end to end. Looking for a professional internship in Paris.">
+  <meta property="og:image" content="https://jordant667.github.io/assets/og.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2307101F'/><text x='16' y='22' font-size='16' font-family='Segoe UI,Arial' font-weight='700' fill='%2322D3EE' text-anchor='middle'>NJ</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo">NJ</span>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero-body">
+      <div class="accent"></div>
+      <p class="kicker">Data Scientist &amp; AI Engineer · Paris</p>
+      <h1>Namekong Jordan</h1>
+      <p class="lead">I build data and AI products in health tech, end to end: from the data and the model to the API and the mobile app that people actually use.</p>
+      <p class="status"><span class="dot"></span><span>Looking for a <strong>professional internship</strong> in data science or AI, in Paris or remote.</span></p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="mailto:namekongj0@gmail.com">Email me</a>
+        <a class="btn" href="https://github.com/jordanT667">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <a href="https://github.com/jordanT667/nutriscore-ml"><img src="assets/projects/nutriscore-ml.png" alt="Nutri-Score without a nutrition table" loading="lazy"></a>
+          <div class="card-body">
+            <p class="tag">Data science</p>
+            <h3><a href="https://github.com/jordanT667/nutriscore-ml">Nutri-Score without a nutrition table</a></h3>
+            <p>Estimates the grade of food products from their ingredients and categories when the nutrition table is missing. 265,691 Open Food Facts products, a brand-grouped split, text features and LightGBM.</p>
+            <ul class="facts">
+              <li><b>0.72</b> macro-F1 on unseen brands (0.61 for the category baseline)</li>
+              <li><b>94.5%</b> of products within one grade</li>
+            </ul>
+            <p class="stack">Python · scikit-learn · LightGBM · NLP · pandas</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/jordanT667/nutrition-rag"><img src="assets/projects/nutrition-rag.png" alt="Nutrition guidelines assistant" loading="lazy"></a>
+          <div class="card-body">
+            <p class="tag">AI · LLM</p>
+            <h3><a href="https://github.com/jordanT667/nutrition-rag">Nutrition guidelines assistant</a></h3>
+            <p>A question-answering assistant on the official French dietary guidelines that cites the page behind every answer, with an evaluation harness comparing retrieval, whole-document context and no document.</p>
+            <ul class="facts">
+              <li><b>95%</b> of reference questions: right page in the top 5 passages</li>
+              <li><b>50</b> reference questions, 10 of them unanswerable by design</li>
+            </ul>
+            <p class="stack">Python · RAG · BM25 · Claude API</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/jordanT667/kiwia"><img src="assets/projects/kiwia.png" alt="KIWIA mobile app" loading="lazy"></a>
+          <div class="card-body">
+            <p class="tag">Personal project · built solo</p>
+            <h3><a href="https://github.com/jordanT667/kiwia">KIWIA</a></h3>
+            <p>A daily nutrition coach organised by organ. A tested health rules engine served by a FastAPI backend, and a Flutter app that runs the same rules in Dart so it works offline.</p>
+            <ul class="facts">
+              <li><b>511</b> backend test functions, CI on every push</li>
+              <li><b>156</b> shared reference cases keep the Python and Dart engines identical</li>
+            </ul>
+            <p class="stack">Python · FastAPI · PostgreSQL · Flutter · Docker</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/jordanT667/concours"><img src="assets/projects/concours.png" alt="Entrance exam registration platform" loading="lazy"></a>
+          <div class="card-body">
+            <p class="tag">Personal project</p>
+            <h3><a href="https://github.com/jordanT667/concours">Entrance exam registration platform</a></h3>
+            <p>An Angular platform for applying to an engineering school entrance exam: a step-by-step application wizard, application tracking and an admin back office, deployed to a VPS with GitHub Actions.</p>
+            <p class="stack">Angular · TypeScript · SSR · GitHub Actions</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="https://github.com/jordanT667/ProjetST"><img src="assets/projects/ProjetST.png" alt="AI training and B2B platform" loading="lazy"></a>
+          <div class="card-body">
+            <p class="tag">Personal project</p>
+            <h3><a href="https://github.com/jordanT667/ProjetST">AI training &amp; B2B platform</a></h3>
+            <p>A Django platform combining online courses with PDF certificates, a B2B space for business clients, an admin dashboard and a REST API.</p>
+            <p class="stack">Django · Django REST Framework · HTMX · Tailwind CSS</p>
+          </div>
+        </article>
+
+        <article class="card plain">
+          <div class="card-body">
+            <p class="tag">Private project</p>
+            <h3>Vitallink</h3>
+            <p>A project in the medical domain. Details are private.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="item">
+          <h3>Junior Data Scientist <span>· Infinity Tech</span></h3>
+          <p class="when">4 months</p>
+          <p>Data preparation and analysis, dashboards and reporting for business teams.</p>
+        </div>
+        <div class="item">
+          <h3>Junior Developer &amp; Designer <span>· Gestmarter</span></h3>
+          <p class="when">5 months</p>
+          <p>Restaurant and travel apps, websites and platforms for organisations, from UI design to implementation.</p>
+        </div>
+      </div>
+      <h2 class="sub">Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <h3>MSc Data Science &amp; AI <span>· École nationale supérieure polytechnique de Douala</span></h3>
+          <p class="when">2026</p>
+        </div>
+        <div class="item">
+          <h3>BSc, same school and track</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h3>Data Science</h3><p>Python, pandas, NumPy, scikit-learn, LightGBM, statistical modelling, data visualisation, dashboards</p></div>
+        <div><h3>Artificial Intelligence</h3><p>Model training and evaluation, deep learning (PyTorch, TensorFlow), NLP, LLM applications, retrieval-augmented generation</p></div>
+        <div><h3>Software Engineering</h3><p>FastAPI, Django, PostgreSQL, Angular, Flutter, Docker, GitHub Actions, testing</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Open to a professional internship in data science or AI, in Paris or remote.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:namekongj0@gmail.com">namekongj0@gmail.com</a>
+        <a class="btn" href="https://github.com/jordanT667">github.com/jordanT667</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>Namekong Jordan · Paris</footer>
+</body>
+</html>
